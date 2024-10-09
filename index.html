@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Descrição da página">
+    <title>Títudo da página</title>
+    
+    <!-- Stylesheets -->
+    <link rel="preload" href="https://scripts.converteai.net/33f39431-0f17-4a0e-a12a-0a7a21d54329/players/64c9121a73bf98000906226c/player.js" as="script">
+    <link rel="preload" href="https://cdn.converteai.net/lib/js/smartplayer/v1/smartplayer.min.js" as="script">
+    <link rel="preload" href="https://images.converteai.net/33f39431-0f17-4a0e-a12a-0a7a21d54329/players/64c9121a73bf98000906226c/thumbnail.jpg" as="image">
+    <link rel="preload" href="https://cdn.converteai.net/33f39431-0f17-4a0e-a12a-0a7a21d54329/64c91193a8a4d900084c9f8c/main.m3u8" as="fetch">
+    <link rel="dns-prefetch" href="https://cdn.converteai.net">
+    <link rel="dns-prefetch" href="https://scripts.converteai.net">
+    <link rel="dns-prefetch" href="https://images.converteai.net">
+    <link rel="dns-prefetch" href="https://api.vturb.com.br">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Dosis:wght@200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/com.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.png">
+
+    <style>
+        header {
+            color: white;
+            background-color: rgb(255, 255, 255);
+            background-image: rgb(0, 0, 0);
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            background-blend-mode: darken;
+        }
+    </style>
+    
+    <!-- Meta Pixel Code -->
+    <script>
+        !function(f,b,e,v,n,t,s) {
+            if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+            if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+            n.queue=[];t=b.createElement(e);t.async=!0;
+            t.src=v;s=b.getElementsByTagName(e)[0];
+            s.parentNode.insertBefore(t,s)}(window, document,'script','https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '877953813661001');
+        fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=877953813661001&ev=PageView&noscript=1" /></noscript>
+    <!-- End Meta Pixel Code -->
+</head>
+
+<body>
+    <header class="py-4">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <br>
+                    <!-- VSL -->
+                    <div id="vid_64c9121a73bf98000906226c" style="position:relative;width:100%;padding:56.25% 0 0;">
+                        <img id="thumb_64c9121a73bf98000906226c" src="https://images.converteai.net/33f39431-0f17-4a0e-a12a-0a7a21d54329/players/64c9121a73bf98000906226c/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;">
+                        <div id="backdrop_64c9121a73bf98000906226c" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div>
+                    </div>
+<br>
+                    
+<div>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CHAT LIBÉRÉ</title>
+<style>
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+#chat-container {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    overflow-y: auto;
+    max-height: calc(100vh - 300px);
+    background-color: #fff;
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.comment {
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #eee;
+    background-color: #fafafa;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+.comment .content {
+    flex: 1;
+}
+.comment .user {
+    font-weight: bold;
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+}
+.comment .text {
+    font-size: 15px;
+    color: #555;
+    white-space: pre-wrap;
+}
+#title {
+    text-align: center;
+    color: #fff;
+    background-color: #333;
+    padding: 15px;
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    border-bottom: 2px solid #444;
+    border-top-left-radius: 10px; /* Borda arredondada na parte superior esquerda */
+    border-top-right-radius: 10px; /* Borda arredondada na parte superior direita */
+}
+#comment-form {
+    max-width: 100%;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 2px solid #ccc;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.1);
+}
+textarea {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-top: 10px;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-sizing: border-box;
+    resize: none;
+    font-size: 16px;
+    font-family: 'Georgia', serif;
+}
+input[type="submit"] {
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 15px;
+    cursor: pointer;
+    font-size: 16px;
+    width: calc(100% - 24px);
+    transition: background-color 0.3s ease;
+}
+input[type="submit"]:hover {
+    background-color: #444;
+}
+</style>
+</head>
+<body>
+<!-- Título "CHAT LIBÉRÉ" -->
+<div id="title">CHAT LIBÉRÉ</div>
+<!-- Sección de Chat -->
+<div id="chat-container">
+</div>
+<!-- Formulário de Comentário -->
+<div id="comment-form">
+    <form id="form">
+        <textarea id="user-comment" placeholder="Écrire votre commentaire ici..." rows="3" required></textarea>
+        <input type="submit" value="Envoyer">
+    </form>
+</div>
+<script>
+    // Lista de comentarios automáticos al abrir el sitio
+    const initialComments = [
+        "JE N'AI JAMAIS RIEN VU DE TEL",
+"Wow, maintenant tout fait sens, j'ai compris pourquoi je n'avais jamais eu de chance!",
+"Oui, je veux cette abondance dans ma vie ! 🙏🙏",
+"Heureusement, j'ai réussi à obtenir une place pour cet événement ! La dernière fois, j'étais resté(e) dehors.",
+"Mon amie de la fac m'a beaucoup parlé de ce secret ! Il est incroyable !",
+"Il est vraiment très connu ! Sa technique est une véritable révélation. La manière dont il débloque la prospérité est incroyable.",
+"Cette prospérité magnétique est réelle !",
+"Je n'arrive pas à croire la différence que sa technique a fait dans ma vie. La prospérité est maintenant une réalité pour moi !",
+"C'est la prospérité que j'attendais dans ma vie.",
+"Entendre ce secret était tout ce dont j'avais besoin !",
+"Je suis revenu(e) ici pour dire que cette prospérité fonctionne vraiment.",
+"Pour ceux qui ont des doutes, je peux dire que ce gars est très célèbre.",
+"Je suis revenu(e) ici pour te dire de regarder cette vidéo jusqu'à la fin, tu ne le regretteras pas !",
+"Je suis venu(e) dire que ça marche vraiment ! Je suis content(e) que cette vidéo soit toujours en ligne !",
+"Ma sœur m'a parlé de cette vidéo !",
+"Regarde cette vidéo sans crainte ! Ça marche vraiment !"
+    ];
+
+    // Lista de comentarios automáticos durante el video
+    const videoComments = [
+        // Primeros 20 minutos
+        [
+            "Je suis reconnaissante d'être ici 🙏",
+"Je suis contente d'écouter cela",
+"Cette technique est incroyable, merci Akira",
+"Je suis en train d'adorer ! ❤️",
+"Ce gars est célèbre aux États-Unis. Je l'ai déjà vu à la télé...",
+"Ma collègue de travail l'a fait, maintenant je veux le faire aussi.",
+"Sa sagesse et son expérience sont évidentes. Résultat réel !",
+"Je suis venu(e) sur la recommandation de ma cousine, qui n'arrête pas de parler de cette vidéo.",
+"Ma vie a complètement changé grâce à ce petit secret.",
+"J'ai déjà vu des vidéos de lui sur TikTok, il est vraiment incroyable !",
+"Je suis heureux(se) qu'il ait partagé ce savoir ! Ça a changé ma vie !",
+"Il est un véritable maître dans l'art de débloquer l'abondance. Ses techniques sont incroyablement puissantes ! J'ai hâte de les mettre en pratique bientôt !",
+"Merci beaucoup !",
+"Ce gars est incroyable !"
+           
+        ],
+        // Últimos 10 minutos
+        [
+           "Je veux être l'un des premiers, j'ai déjà pris la carte",
+"Moi aussi, je veux !",
+"Je désire vraiment cela",
+"Je vais acheter, s'il vous plaît",
+"J'ai besoin de ce programme",
+"Les résultats sont réels ! En seulement quelques jours, j'ai déjà vu des changements significatifs. Ça vaut vraiment le coup.",
+"Au début, j'avais peur, mais après avoir appliqué cette technique, les résultats ont été incroyables ! Je suis très satisfait !",
+"Je n'aurais jamais imaginé qu'il serait possible d'atteindre autant de prospérité en si peu de temps ! Cette technique a vraiment changé ma vie financière.",
+"J'avais des difficultés financières et, après avoir appliqué cette technique, j'ai vu un changement complet. Aujourd'hui, je vis une vie d'abondance.",
+"Les résultats ont été rapides et concrets. Je suis passé d'endetté à une vie financièrement stable en seulement quelques jours.",
+"Un ami me l'a recommandé, et j'ai décidé de l'essayer. Maintenant, je vis une prospérité que je n'aurais jamais imaginé possible.",
+"Cette technique a complètement transformé ma relation avec l'argent. Maintenant, je vis dans une abondance constante et une réalisation financière.",
+"Je pensais que c'était la folie de ma femme ! Je dois avouer que je n'attendais pas grand-chose, mais cette technique a dépassé toutes mes attentes. La prospérité que j'ai atteinte est incroyable.",
+"J'étais déjà sceptique, mais cette technique m'a vraiment redonné confiance. Aujourd'hui, je vis une vie de succès financiers.",
+"Je n'aurais jamais imaginé qu'une technique puisse changer ma vie financière si rapidement !",
+"Je suis tellement heureux du changement que cette technique a apporté à ma vie. J'ai obtenu la vie d'abondance dont j'avais toujours rêvé !",
+"Avant, j'avais du mal à payer mes factures, mais maintenant, grâce à cette technique, j'ai plus de ressources qu'il n'en faut pour vivre confortablement.",
+"Les résultats sont arrivés rapidement. Aujourd'hui, je peux dire que je vis la vie de réussite financière que j'ai toujours rêvé.",
+"Quelques jours après avoir appliqué la technique, je continue de voir ma prospérité croître. Je suis la preuve vivante que ça fonctionne !",
+"Cette technique promettait un changement financier, mais les résultats ont été encore meilleurs que ce que j'aurais pu imaginer.",
+"En peu de temps, ma vie financière a fait un tournant. La technique tient vraiment ses promesses.",
+"Cette technique m'a assuré une stabilité financière pour des années. La sécurité que je ressens aujourd'hui est inestimable.",
+"Je suis tellement heureux ! Pourquoi n'ai-je pas découvert cela plus tôt ? Cette technique est réelle ! Un véritable miracle pour ceux qui cherchent la prospérité.",
+"Je vois des résultats incroyables ! Je suis très heureux !",
+"J'ai vécu sans argent ! Après avoir appliqué cette technique, ma vie a changé. Aujourd'hui, je vis une vie d'abondance."
+        ]
+    ];
+
+    // Función para agregar un nuevo comentario
+    function addComment(username, text, isYou) {
+        const chatContainer = document.getElementById('chat-container');
+        const newComment = document.createElement('div');
+        newComment.classList.add('comment');
+        newComment.innerHTML = '<div class="content"><span class="user">' + (isYou ? 'Tú' : username) + ':</span><div class="text">' + text + '</div></div>';
+        // Agregando el nuevo comentario al inicio del chat
+        chatContainer.prepend(newComment);
+        // Removiendo los comentarios más antiguos si hay más de 5
+        if (chatContainer.children.length > 5) {
+            chatContainer.removeChild(chatContainer.lastChild);
+        }
+    }
+
+    // Enviar comentario del usuario
+    document.getElementById('form').addEventListener('submit', function(event) {
+        event.preventDefault();
+        const comment = document.getElementById('user-comment').value;
+        addComment('Usuario Falso', comment, true);
+        document.getElementById('user-comment').value = '';
+    });
+
+    // Agregar comentarios automáticos al abrir el sitio
+    window.onload = function() {
+        const chatContainer = document.getElementById('chat-container');
+        // Agregando comentarios iniciales
+        initialComments.forEach((comment, index) => {
+            setTimeout(() => {
+                addComment(getRandomName(), comment, false);
+            }, index * 1000); // Retraso de 1 segundo entre cada comentario inicial
+        });
+
+        // Agregar comentarios a lo largo del video
+        let currentTime = 20 * 60; // Tiempo inicial en segundos
+        const videoInterval = setInterval(() => {
+            // Verificar si el video ha terminado
+            if (currentTime >= 47 * 60) {
+                clearInterval(videoInterval); // Dejar de agregar comentarios
+                return;
+            }
+            // Elegir lista de comentarios según el tiempo
+            const comments = currentTime < 30 * 60 ? videoComments[0] : videoComments[1];
+            const randomIndex = Math.floor(Math.random() * comments.length);
+            const randomComment = comments[randomIndex];
+            addComment(getRandomName(), randomComment, false);
+            currentTime += 3 * 60; // Avanzar 3 minutos
+        }, 3 * 60 * 1000); // Cada 3 minutos (en milisegundos)
+    };
+
+    // Función para generar nombres aleatorios
+    function getRandomName() {
+       const names = [
+            "Marie", "Joseph", "Anne", "Jean", "François", "Marie-Anne", "Antoine", "Pierre", "Amélie", "Luc", "Isabelle", "Fernande", "Charles", "Gabriel", "Laure", "Serge", "Isabelle", "Hélène", "Manuel", "Patricia", "Xavier", "Béatrice", "Marthe", "Alexandre", "Claudine", "Paul", "Mario", "Juliette", "Emilie", "Louis", "Cécile", "Étienne", "Gabrielle", "Nicolas", "Sophie", "Julien", "Claire", "Hugo", "Lucie", "Françoise", "Gérard", "Alice", "Julien", "Michel", "Sophie"
+        ];
+
+        const lastNames = [
+            "Dubois", "Lemoine", "Lefèvre", "Garnier", "Lemoine", "Rousseau", "Moreau", "Dufresne", "Lefebvre", "Dupont", "Lemoine", "Rivière", "Giraud", "Blanc", "Marty", "Charpentier", "Chevalier", "Benoît", "Deschamps", "Faure", "Joubert", "Lemoine", "Simon", "Gauthier", "Dumas", "Michel", "Perrin", "Lemoine", "Brun", "Lemoine", "Dufour", "Gauvin", "Lefèvre", "Bouchard", "Leroy", "Lemoine", "Hérisson", "Hughes", "Dumont", "Lemoine", "David", "Lemoine"
+        ];
+
+        const randomName = names[Math.floor(Math.random() * names.length)];
+        const randomLastName = lastNames[Math.floor(Math.random() * lastNames.length)];
+        return randomName + " " + randomLastName;
+    }
+</script>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+    </header>
+
+    <footer class="bg-white py-3 text-center">
+        <h6><span style="color:#6C757D">Copyright 2023 – 2025</span><br><br>
+            <div class="text-secondary"><a href="terms.html" class="text-secondary">Terms of Use</a> – <a href="privacy.html" class="text-secondary">Privacy Policy</a></div><br>
+        </h6>
+    </footer>
+
+</body>
+</html>
